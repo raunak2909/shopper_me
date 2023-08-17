@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1082961399214-jkiu7r6b2qco6fs7ul5e3v9vjtol9hat.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1082961399214-jkiu7r6b2qco6fs7ul5e3v9vjtol9hat</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCP1_bQ7rWwa6yEQ1Txg7QfOqo0NvzO6Qk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1082961399214</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.prodroid.shopperMe</string>
+	<key>PROJECT_ID</key>
+	<string>shopper-85642</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shopper-85642.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1082961399214:ios:795ac715f4f4788763cc3f</string>
+</dict>
+</plist>

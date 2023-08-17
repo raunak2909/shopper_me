@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082961399214",
+    "project_id": "shopper-85642",
+    "storage_bucket": "shopper-85642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082961399214:android:1f19cd43d737bee463cc3f",
+        "android_client_info": {
+          "package_name": "com.prodroid.shopper_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082961399214-mt4i4lo1dhlffae7m19tmu8jq9suqtf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ0zCVUXnWn54aHI1OJihEP2p-b8FT6RQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082961399214-mt4i4lo1dhlffae7m19tmu8jq9suqtf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
