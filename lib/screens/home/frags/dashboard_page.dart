@@ -280,12 +280,17 @@ class _DashBoardPageState extends State<DashBoardPage> {
                                   shrinkWrap: true,
                                   physics: NeverScrollableScrollPhysics(),
                                   itemBuilder: (_, index) {
-                                    return ProductWidget(
-                                      name: arrProducts[index].name,
-                                      imgUrl: arrProducts[index].images[0],
-                                      price:
-                                          arrProducts[index].price.toString(),
-                                      colorHex: arrProducts[index].colors,
+                                    return InkWell(
+                                      onTap: (){
+                                        Navigator.pushNamed(context, AppRoutes.detailProductScreen, arguments: {'productId': arrProducts[index].product_id});
+                                      },
+                                      child: ProductWidget(
+                                        name: arrProducts[index].name,
+                                        imgUrl: arrProducts[index].images[0],
+                                        price:
+                                            arrProducts[index].price.toString(),
+                                        colorHex: arrProducts[index].colors,
+                                      ),
                                     );
                                   });
                             } else if (snapshot.hasError) {

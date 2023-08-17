@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:shopper_me/firebase_options.dart';
 import 'package:shopper_me/routes/app_routes.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 

@@ -40,7 +40,7 @@ class _AllProductsPageState extends State<AllProductsPage> {
                       InkWell(onTap: (){
                         Navigator.pop(context);
                       },
-                          child: RoundIconWidget(img: ImageConstant.app_drawer)),
+                          child: RoundIconWidget(img: ImageConstant.back)),
                     ],
                   )),
               const SizedBox(

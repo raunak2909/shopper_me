@@ -11,6 +11,12 @@ class ImageConstant {
   static String app_drawer =
       'assets/icons/app-drawer.png';
 
+  static String back =
+      'assets/icons/back.png';
+
+  static String share =
+      'assets/icons/sharing.png';
+
   static String bell =
       'assets/icons/bell.png';
 

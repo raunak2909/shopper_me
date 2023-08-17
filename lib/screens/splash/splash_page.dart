@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:shopper_me/firebase/firebase_provider.dart';
 import 'package:shopper_me/routes/app_routes.dart';
 import 'package:shopper_me/utils/color_constant.dart';
 import 'package:shopper_me/utils/image_constant.dart';
@@ -12,6 +13,12 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
